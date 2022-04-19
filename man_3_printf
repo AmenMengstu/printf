@@ -3,14 +3,14 @@
 ." Render on terminal with
 ." man ./man_3_printf
 ."
-.TH man 3 "28 July 2021" "v 1.0" "_printf man page"
+.TH man 3 "20 apr 2022" "v 1.0" "_printf man page"
 
 .SH Name
 .B _printf
 - prints formatted output of arguments
 
 .SH Synopsis
-#include "holberton.h"
+#include "main.h"
 
 int _printf(const char *format, ...);
 
@@ -159,7 +159,7 @@ To print some weather details:
 .PP
 .nf
 .RS
-#include "holberton.h"
+#include "main.h"
 _printf("Wind: %d%s and Precipitation: %d%%\\n", 28, "km/h", 0x1a);
 .RE
 .fi
@@ -167,12 +167,12 @@ _printf("Wind: %d%s and Precipitation: %d%%\\n", 28, "km/h", 0x1a);
 
 .SH
 Authors
-Written by Bezaleel Olakunori and Obed Amoako
+Written by AmenMengstu and ashuhg
 
 .SH Reporting Bugs
 Report
 .SB _printf
-bugs to <https://github.com/Obed101/printf/issues>
+bugs to <https://github.com/ashuhg/printf/issues>
 
 .SH See Also
 https://linux.die.net/man/3/scanf
