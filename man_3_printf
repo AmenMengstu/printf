@@ -172,7 +172,7 @@ Written by AmenMengstu and ashuhg
 .SH Reporting Bugs
 Report
 .SB _printf
-bugs to <https://github.com/ashuhg/printf/issues>
+bugs to <https://github.com/AmenMengstu/printf/issues>
 
 .SH See Also
 https://linux.die.net/man/3/scanf
